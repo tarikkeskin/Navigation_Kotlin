@@ -17,9 +17,9 @@ class OyunFragment : Fragment() {
 
         val bundle: OyunFragmentArgs by navArgs()
 
-        val gelenKisi = bundle.kisi
+        //val gelenKisi = bundle.kisi
 
-        Log.e("Debug",gelenKisi.ad+" "+gelenKisi.no)
+        //Log.e("Debug",gelenKisi.ad+" "+gelenKisi.no)
 
         return tasarim
     }
