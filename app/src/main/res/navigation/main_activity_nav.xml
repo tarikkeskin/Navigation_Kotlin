@@ -22,5 +22,9 @@
         android:id="@+id/oyunFragment"
         android:name="com.example.navigation.OyunFragment"
         android:label="fragment_oyun"
-        tools:layout="@layout/fragment_oyun" />
+        tools:layout="@layout/fragment_oyun" >
+        <argument
+            android:name="kisi"
+            app:argType="com.example.navigation.Kisi" />
+    </fragment>
 </navigation>

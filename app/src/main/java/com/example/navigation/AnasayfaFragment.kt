@@ -20,7 +20,10 @@ class AnasayfaFragment : Fragment() {
         tasarim.textView.text = "Helloo"
 
         tasarim.buttonOyun.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.oyunEkraninaGecis)
+            val kisi = Kisi("tarik",234,true)
+            val gecis = AnasayfaFragmentDirections.oyunEkraninaGecis(kisi)
+
+            Navigation.findNavController(it).navigate(gecis)
         }
 
         return tasarim
